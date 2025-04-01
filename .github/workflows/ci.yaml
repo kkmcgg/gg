@@ -26,5 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
-      - run: pip install mkdocs-tags mkdocs-bibtex mkdocs-literate-nav
+      - run: pip install mkdocs-bibtex mkdocs-literate-nav
       - run: mkdocs gh-deploy --force
