@@ -20,8 +20,8 @@ plugins:
   - bibtex:
       bib_file: docs/references/refs.bib
       # bib_file: https://www.zotero.org/kkmcguig/items?format=bibtex
-  - literate-nav:
-      nav_file: SUMMARY.md
+  # - literate-nav:
+  #     nav_file: SUMMARY.md
 
 # nav:
 #   - Home: index.md

@@ -1,2 +1,3 @@
+- [Welcome](index.md)
 - */
 - *.md
