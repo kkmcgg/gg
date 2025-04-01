@@ -1,0 +1,44 @@
+# example here
+# https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
+
+site_name: ⅁ - Glossarium Geographia
+theme:
+  name: material
+  logo: _sys/assets/logo.png
+  favicon: _sys/assets/logo.ico
+  features:
+    - search.suggest
+    - navigation.path
+    - content.code.copy
+    - navigation.tabs
+  palette:
+    primary: custom
+    scheme: agrg
+plugins:
+  - search
+  - tags
+  - bibtex:
+      bib_file: docs/references/refs.bib
+      # bib_file: https://www.zotero.org/kkmcguig/items?format=bibtex
+  - literate-nav:
+      nav_file: SUMMARY.md
+
+# nav:
+#   - Home: index.md
+#   - Terms: terms/mkdocs.md
+#   - References: references.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.snippets
+
+extra_javascript:
+  - _sys/javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - _sys/stylesheets/extra.css

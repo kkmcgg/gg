@@ -1,0 +1,43 @@
+/* :root  > * {
+    --md-primary-fg-color:        #0076c0;
+    --md-primary-fg-color--light: #77a22e;
+    --md-primary-fg-color--dark:  #77a22e;
+  } */
+  
+  [data-md-color-scheme="agrg"] {
+    --md-primary-fg-color:        #ffffff ;
+    --md-primary-bg-color:        #000000 ;
+    --md-primary-fg-color--light: #0076c0;
+    --md-primary-fg-color--dark:  #77a22e;
+    /* --md-typeset-color: #000000; */
+  }
+
+  .term {
+    border-bottom: 1px dashed #888;
+    cursor: help;
+
+    
+}
+/* Add a bottom border to the main header element */
+.md-header {
+  border-bottom: 1px solid var(--md-typeset-table-color); /* Option 1: Use a theme variable */
+  border-bottom: 1px solid #cccccc; /* Option 2: Use a specific hex color */
+}
+
+.md-content blockquote {
+  background-color: #f0f0f0; /* Light blue background */    
+  color: #000000;               /* Optional: Change text color if needed for contrast */
+  border-left: none !important;
+}
+
+
+/* --- Style 2: For nested '>>' quotes --- */
+/* Selects a blockquote that is INSIDE another blockquote */
+.md-content blockquote blockquote {
+  background-color: #f8f8f8; /* Light blue background */
+  border-left-color: #ffffff; /* Blue border */
+  /* border-left-width: 4px; /* Optional: Keep same width or change */
+  /* border-left-style: solid; */
+  color: #000000; /* Optional: Darker blue text */
+  border-left: none !important;
+}
