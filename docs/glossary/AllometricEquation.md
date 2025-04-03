@@ -31,5 +31,5 @@ Estimating a stand’s biomass from average height or basal area.
 
 ## Notes
 
-This concept is applied to forest metrics in Yang 2021[@Yang2021]
+This concept is applied to forest metrics Nova Scotia in Yang 2021[@Yang2021]. The system used to produce this [EFI](EFI.md) was described by Yang in previous work [@Yang2020].
 
