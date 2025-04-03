@@ -17,6 +17,8 @@ theme:
 plugins:
   - search
   - tags
+  - macros:
+      module_name: main # Tells macros to load definitions from main.py
   - bibtex:
       bib_file: docs/references/refs.bib
       # bib_file: https://www.zotero.org/kkmcguig/items?format=bibtex
