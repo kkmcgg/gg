@@ -1,0 +1,11 @@
+# Active Contours
+
+digital image processing technique
+used in image segmentation 
+associated with morphological image processing 
+
+also known as 'snakes'
+segments using curves instead of pixels
+
+start with a rough polygon and "shrink" onto the edge or segment iteratively 
+
