@@ -9,3 +9,4 @@ segments using curves instead of pixels
 
 start with a rough polygon and "shrink" onto the edge or segment iteratively 
 
+iterations are parameterized by the "internal" and "external" energy of yhe curve. internal tries to make it smooth (morphology) and external tries to find the edge (intensity)
