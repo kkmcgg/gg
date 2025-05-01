@@ -6,3 +6,5 @@ min cut problem - find souce to target cut across a graph of minimum capacity
 max flow equalize inflow and outflow and take the path of maximum flow 
 
 really needs to be explained visially 
+
+ford-fulkerson, 1956
