@@ -1,0 +1,3 @@
+TTS-SDE (Time-Travel Sampling via SDE) — Sampler used in diffusion video/world models for generative game engines and interactive geo-scenes. It occasionally peeks a few steps ahead, then rewinds and corrects the current state with a small noise injection so player controls (pan/tilt/forward/turn) take effect instead of the model coasting. Use it when input obedience > perfect background stability; apply only every k steps to limit cost. Practical defaults: k≈5, depth≈3; raise if the model ignores input, lower if identities/backgrounds drift. Works best with a memory/rollout buffer; skip it during static shots to save compute.
+
+https://stdstu12.github.io/YUME-Project/
